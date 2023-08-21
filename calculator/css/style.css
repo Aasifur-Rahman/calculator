@@ -14,7 +14,7 @@
 }
 
 .calculator {
-  background: #262322;
+  background: #0a0a0a;
   padding: 20px;
   border-radius: 10px;
 }
@@ -25,7 +25,7 @@
   width: 60px;
   height: 60px;
   border-radius: 10px;
-  box-shadow: -4px -4px 15px #c97e6063, 5px 5px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: -1px 1px 15px #ffffff63;
   background: transparent;
   font-size: 20px;
   color: #f2e5d7;
@@ -48,4 +48,8 @@ form .display input {
 
 form input.equal {
   width: 145px;
+}
+
+form input.operator {
+  color: orange;
 }
